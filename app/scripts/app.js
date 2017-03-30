@@ -38,6 +38,7 @@ export default function app() {
   const render = function (state, event, data) {
     // You will want to update this render function to render
     $('#app').html(blogMaker);
+
   };
 
   // Every time an event is fired the update function will run
