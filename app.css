@@ -3,4 +3,7 @@ html body {
   padding: 0;
   background: #fafafa; }
 
+div {
+  display: block; }
+
 /*# sourceMappingURL=app.css.map */

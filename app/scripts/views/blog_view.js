@@ -1,7 +1,6 @@
 export default function blogMaker() {
-  console.log('this export thing works');
 
-  let html = $(`
+  let smack = $(`
      <div id="blogContainer">
      <form id="blog-form">
      <label for="blogTitle">title</label>
@@ -14,8 +13,9 @@ export default function blogMaker() {
      </div>
    `);
 
-   $(html).find('#blog-form').submit(function(event) {
+   $(smack).find('#blog-form').submit(function(event) {
      event.preventDefault();
+
      let title = event.target.elements['blogTitle'].value;
      let body = event.target.elements['blogBody'].value;
 
@@ -35,5 +35,5 @@ export default function blogMaker() {
 
    });
 
-   return html;
+   return smack;
 };

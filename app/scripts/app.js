@@ -1,5 +1,6 @@
 import Store from './store.js'
 import blogMaker from './views/blog_view.js'
+import makePersonForm from './views/person_form.js'
 
 export default function app() {
   //All of your code starts here
@@ -37,8 +38,8 @@ export default function app() {
 
   const render = function (state, event, data) {
     // You will want to update this render function to render
-    $('#app').html(blogMaker);
-
+    $('#blog_maker').html(blogMaker);
+    $('#person_maker').html(makePersonForm);
   };
 
   // Every time an event is fired the update function will run
