@@ -4,6 +4,11 @@
 What is It?
 -----------
 
+TIY Front End Development Spring 2017 assignment
+
+What does it do?
+----------------
+
 Complete as many of the four "apps" as possible using the webpack-starter that we used for the chat app.
 
 Make sure everything is working before diving in and writing code. You should see 'Hello World' on the screen after running npm run start.
@@ -23,6 +28,8 @@ b) Create a form for a person. It should have a first name, last name, address, 
 c) Create a "blog reading app", where you have two columns. A list of blog posts on the side and a place to read the posts in the middle. When you click on a post title, it "opens" that post by placing its contents in the middle column, but does not remove the list from the page.
 
 d) Create a complete blog CMS from scratch, allowing you to create, read, update, and delete blog posts.
+
+[Live Version](cooperative-volcano.surge.sh)
 
 --------------------------------------------------------------------------------
 
